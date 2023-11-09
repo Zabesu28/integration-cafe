@@ -1,0 +1,452 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    width: auto;
+    height: 153px;
+    position: sticky;
+}
+
+footer{
+    width: auto;
+    height: 112px;
+}
+
+header, footer p, h3 {
+    color: #FFF;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin :0 42px;
+}
+
+.flex-icon-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 5.32px;
+}
+
+.flex-menu-container{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px; 
+}
+
+.flex-menu-container p{
+    font-family: Inter;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.coffee-color{
+    background: var(--Coffee, #845121);
+}
+
+.coffee-black-color{
+    background: var(--Caf, #633D1A);
+}
+
+.font-family{
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.flex-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin :40px 25px;
+}
+
+.flex-body2{
+    margin-bottom :42px auto
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--Coffee, #845121);
+    flex-wrap: nowrap;
+    
+}
+
+.textBienvenue{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.flex-intro :nth-child(1) {
+    margin-bottom: 31px;
+  }
+
+.flex-intro :nth-child(2) {
+    margin-bottom: 63px;
+}
+
+.border{
+    border-bottom: 1px solid;
+    margin-bottom: 14.5px;
+}
+
+.box{
+    border-radius: 50px;
+    border: 3px solid var(--Coffee, #845121);
+}
+
+.img{
+    width: 100%;
+    height: 1281px;
+    background-image: url(../lecafew/images/cafew.jpg);
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.flex-bouton{
+    margin: 40px auto;
+    width: 234px;
+    height: 68.871px;
+    padding: 5px 24px 5px 19px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.flex-bouton img{
+    width: 52px;
+    height: 49px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.white-text{
+    color:#FFF
+}
+
+.box-cafe{
+    width: 206px;
+    height: 331px;
+    background: var(--Coffee, #845121);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.box-cafe .image{
+    margin-top: 31.63px;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.image{
+    width: 104px;
+    height: 108px;
+    border-radius: 5px;
+    background: #B7A2A2;
+}
+
+.flex-bouton2{
+    margin-top: 20px;
+    width: 184.69px;
+    height: 46.027px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.container-text{
+    text-align: center;
+    margin: 37.5px 37.5px auto;
+    padding: 40px 19px 36px 18px;
+    border-radius: 15px;
+    border: 1px solid #845121;
+}
+
+.container-text p {
+    font-family: Montserrat Alternates;
+    font-size: 0.9rem;
+    color: #845121;
+}
+
+.main-body img{
+    width: 320px;
+    height: 227px;
+    border-radius: 25px;
+    margin: 59px auto;
+}
+
+.fin{
+    font-size: 24px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-pc{
+    display: none;
+}
+
+.no{
+    display: none;
+}
+
+.imgF{
+    background: rgba(240, 248, 255, 0.5);
+    border-radius: 45px;
+    width: 100%;
+        height: 100%;
+}
+
+.imgM{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 639px){
+    .noPC{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 640px) { 
+
+    header{
+        width: auto;
+        height: 81px;
+        position: sticky;
+        margin-bottom: 60px;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin :0 0;
+    }
+    
+    .flex-icon-container{
+        display: flex;
+        justify-content: start;
+        margin-top: 0px;
+    }
+    
+    .flex-menu-container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:30px; 
+        margin-right: 2%;
+    }
+    
+    .flex-menu-container p{
+        font-family: Inter;
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .flex-body2{
+        display: flex;
+        flex-direction: row;
+        margin-bottom :42px auto;
+        gap: 2%;
+    }
+
+    .flex-body3{
+        display: flex;
+        flex-direction: column;
+        flex: 4.5;
+    }
+
+    .main-body{
+        flex: 5.5;
+    }
+    
+    .flex-pc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .border{
+        border-right: 2px solid #845121;
+        margin-right: 14.5px;
+    }
+
+    .textBienvenue {
+        font-size: 1.5rem;
+        margin: 50px 10% auto;
+        
+    }
+
+    .titlepc{
+        font-size: 4.5rem;
+    }
+
+    .noPC2{
+        display :none;
+    }
+
+    .container-text{
+        text-align: center;
+        margin: 37.5px 37.5px auto;
+        padding: 0px 19px 36px 18px;
+        border-radius: 15px;
+        border: 1px solid #845121;
+    }
+    
+    .container-text p {
+        font-family: Montserrat Alternates;
+        font-size: 1.3rem;
+        color: #845121;
+    }
+
+    .sizePC{
+        font-size: 1.2rem
+    }
+
+    .flex-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        margin: auto 5%;
+    }
+
+    .main-body img
+    {
+        width: 80%;
+        height: 22%;
+        border-radius: 25px;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-bocPC{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;  
+    }
+
+    .img{
+        width: 100%;
+        height: 100%;
+        background-image: url(../lecafew/images/cafew.jpg);
+        background-position: 50%;
+        background-size: cover;
+        border-radius: 45px;
+    }
+
+    .marginPC{
+        margin: 4% auto;
+    }
+
+    .sizeFin{
+        font-size: 1.5rem;
+    }
+
+    footer{
+        margin-top: 7%;
+        width: auto;
+        height: 112px;
+    }
+
+    .box-cafe{
+        width: 206px;
+        height: 331px;
+        background: var(--Coffee, #845121);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+}
