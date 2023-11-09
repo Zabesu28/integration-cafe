@@ -154,7 +154,7 @@ h1 {
 .img{
     width: 100%;
     height: 1281px;
-    background-image: url(../lecafew/images/cafew.jpg);
+    background-image: url(../integration-cafe/images/cafew.jpg);
     background-position: 50%;
     background-size: cover;
     border-radius: 45px;
@@ -417,7 +417,7 @@ h1 {
     .img{
         width: 100%;
         height: 100%;
-        background-image: url(../lecafew/images/cafew.jpg);
+        background-image: url(../integration-cafe/images/cafew.jpg);
         background-position: 50%;
         background-size: cover;
         border-radius: 45px;
