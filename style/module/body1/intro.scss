@@ -1,0 +1,101 @@
+@import '../../base.scss';
+
+
+.flex-intro :nth-child(1) {
+    margin-bottom: 31px;
+  }
+
+.flex-intro :nth-child(2) {
+    margin-bottom: 63px;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex-pc{
+    display: none;
+}
+
+.border{
+    border-bottom: 1px solid;
+    margin-bottom: 14.5px;
+    background-color: $coffee;
+}
+
+
+@media screen and (min-width: $min-width) {
+
+    .flex-body3{
+        display: flex;
+        flex-direction: column;
+        flex: 4.5;
+
+        .flex-intro{
+            p{
+                font-size: 1.5rem;
+                margin: 50px 10% auto;
+            } 
+        }
+
+        .flex-pc{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .container-text{         
+                text-align: center;
+                margin: 37.5px 37.5px auto;  
+                padding: 0px 19px 36px 18px;
+                border-radius: 15px;
+                border: 1px solid $coffee;
+
+                p {               
+                    font-family: Montserrat Alternates;
+                    font-size: 1.2rem;
+                    color: $coffee;
+                    font-size: 1.5rem;
+                    margin: 50px 10% auto;
+                }
+            }
+
+            .btn{
+                display: flex;
+                justify-content: center;
+
+                button{
+                    margin: 40px auto;
+                    width: 234px;
+                    height: 68.871px;
+                    padding: 5px 24px 5px 19px;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    align-content: space-between;
+                    background-color: $black-coffee;
+
+                    p{
+                        font-size: 1.2rem;
+                        color: white;
+                        font-family: $fontElegant;
+                    }
+                }
+            }
+                   
+        }
+          
+    }
+
+    .border{
+        border-right: 2px solid #845121;
+        margin-right: 14.5px;
+    }
+    
+}

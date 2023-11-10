@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -55,23 +55,23 @@ footer{
 
 header, footer p, h3 {
     color: #FFF;
-}
+} */
 
-.flex-container {
+/* .flex-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin :0 42px;
-}
+} */ 
 
-.flex-icon-container{
+/* .flex-icon-container{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 5.32px;
-}
+} */
 
-.flex-menu-container{
+/* .flex-menu-container{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
@@ -85,7 +85,7 @@ header, footer p, h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
 
 .coffee-color{
     background: var(--Coffee, #845121);
@@ -99,7 +99,7 @@ header, footer p, h3 {
     font-family: 'La Belle Aurore', cursive;
 }
 
-.flex-body{
+/* .flex-body{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -108,9 +108,9 @@ header, footer p, h3 {
 
 .flex-body2{
     margin-bottom :42px auto
-}
+} */
 
-h1 {
+/* h1 {
     
     text-align: center;
     font-size: 32px;
@@ -120,7 +120,7 @@ h1 {
     color: var(--Coffee, #845121);
     flex-wrap: nowrap;
     
-}
+} */
 
 .textBienvenue{
     color: #000;
@@ -133,18 +133,18 @@ h1 {
 
 }
 
-.flex-intro :nth-child(1) {
+/* .flex-intro :nth-child(1) {
     margin-bottom: 31px;
   }
 
 .flex-intro :nth-child(2) {
     margin-bottom: 63px;
-}
+} */
 
-.border{
+/* .border{
     border-bottom: 1px solid;
     margin-bottom: 14.5px;
-}
+} */
 
 .box{
     border-radius: 50px;
@@ -289,7 +289,7 @@ h1 {
 
 @media screen and (min-width: 640px) { 
 
-    header{
+    /* header{
         width: auto;
         height: 81px;
         position: sticky;
@@ -325,41 +325,40 @@ h1 {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-    }
+    } */
 
-    .flex-body2{
+    /* .flex-body2{
         display: flex;
         flex-direction: row;
         margin-bottom :42px auto;
         gap: 2%;
-    }
+    } */
 
-    .flex-body3{
+    /* .flex-body3{
         display: flex;
         flex-direction: column;
         flex: 4.5;
-    }
+    } */
 
     .main-body{
         flex: 5.5;
     }
     
-    .flex-pc{
+    /* .flex-pc{
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
+    } */
 
-    .border{
+    /* .border{
         border-right: 2px solid #845121;
         margin-right: 14.5px;
-    }
+    } */
 
-    .textBienvenue {
+    /* .textBienvenue {
         font-size: 1.5rem;
-        margin: 50px 10% auto;
-        
-    }
+        margin: 50px 10% auto;  
+    } */
 
     .titlepc{
         font-size: 4.5rem;
@@ -369,7 +368,7 @@ h1 {
         display :none;
     }
 
-    .container-text{
+    /* .container-text{
         text-align: center;
         margin: 37.5px 37.5px auto;
         padding: 0px 19px 36px 18px;
@@ -381,11 +380,11 @@ h1 {
         font-family: Montserrat Alternates;
         font-size: 1.3rem;
         color: #845121;
-    }
+    } */
 
-    .sizePC{
+    /* .sizePC{
         font-size: 1.2rem
-    }
+    } */
 
     .flex-box{
         display: flex;
@@ -431,11 +430,11 @@ h1 {
         font-size: 1.5rem;
     }
 
-    footer{
+    /* footer{
         margin-top: 7%;
         width: auto;
         height: 112px;
-    }
+    } */
 
     .box-cafe{
         width: 206px;

@@ -1,0 +1,35 @@
+@import '../../base.scss';
+
+
+.main-body {
+
+    img{
+        width: 320px;
+        height: 227px;
+        border-radius: 25px;
+        margin: 59px auto;
+    }
+    
+}
+
+@media screen and (min-width: $min-width) { 
+
+    .main-body{
+        flex: 5.5;
+
+        img{
+            width: 80%;
+            height: 22%;
+            margin: 0px auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .noPC2{
+            display :none;
+        }
+    }
+
+    
+    
+}

@@ -1,0 +1,40 @@
+@import '../base.scss';
+
+header{
+    width: auto;
+    height: 153px;
+    position: sticky;
+    background-color: $coffee;
+
+    a {
+        color: #FFF;
+    }
+
+    .flex-container {
+        display: $flex;
+        justify-content: $center;
+        flex-direction: column;
+        margin :0 42px;
+        
+    }
+}
+
+@media screen and (min-width: $min-width) { 
+
+    header{
+        width: auto;
+        height: 81px;
+        position: sticky;
+        margin-bottom: 60px;
+        
+
+        .flex-container {
+            display: $flex;
+            justify-content: space-between;
+            align-items: $center;
+            flex-direction: row;
+            margin :0 0;
+
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@import '../base.scss';
+
+body{
+    .flex-body{
+        display: $flex;
+        justify-content: $center;
+        flex-direction: column;
+        margin :40px 25px;
+
+        h1{
+           color: $coffee;
+           font-family: $fontElegant;
+	       font-size: 2rem;
+        }
+
+        h5{
+            color: white;
+        }
+
+        h6{
+            color: black;
+        }
+        .flex-body2{
+            margin-bottom :42px auto
+        }
+
+        @media screen and (min-width: $min-width) { 
+
+            h1{
+                font-size: 4.5rem;
+             }
+
+             .flex-body2{
+                display: flex;
+                flex-direction: row;
+                margin-bottom :42px auto;
+                gap: 2%;
+            }
+        
+        }
+    }
+
+    
+    
+}

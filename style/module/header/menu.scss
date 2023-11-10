@@ -1,0 +1,51 @@
+@import '../../base.scss';
+@import '../../layout/header.scss';
+
+
+.flex-icon-container{
+    
+    display: $flex;
+    justify-content: $center;
+    margin-bottom: 20px;
+    margin-top: 5.32px;
+}
+
+.flex-menu-container{
+    display: $flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px; 
+    
+    a{
+        font-family: Inter;
+        font-size: 0.9em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+@media screen and (min-width: $min-width) {
+    
+    .flex-icon-container{
+        display: $flex;
+        justify-content: start;
+        margin-top: 0px;
+    } 
+
+    .flex-menu-container{
+        display: $flex;
+        justify-content:space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:30px; 
+        margin-right: 2%;
+
+        a{
+            font-size: 1.2em;
+        }
+    }
+
+}
